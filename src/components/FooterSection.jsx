@@ -442,7 +442,7 @@ const FooterSection = () => {
           </svg>
         </div>
       </div>
-      <div className="flex flex-col-reverse md:flex-row items-center gap-4 lg:justify-between mt-10 md:mt-16 lg:mt-24">
+      <div className="flex flex-col-reverse md:flex-row items-center gap-4 md:justify-between mt-10 md:mt-16 lg:mt-24">
         <p className="text-base text-[#667085] font-normal">
           © 2023 ClearLink. All rights reserved.
         </p>

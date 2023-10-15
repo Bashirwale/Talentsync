@@ -7,7 +7,7 @@ const NavBar = () => {
     setShowMenu(!showMenu);
   };
   return (
-    <nav className=" relative flex items-center justify-between px-4 py-2 md:py-6 lg:px-8 lg:py-4 bg-[#F2F4F7] rounded-[100px] border border-[#D0D5DD]">
+    <nav className=" flex items-center justify-between px-4 py-2 md:py-6 lg:px-8 lg:py-4 bg-[#F2F4F7] rounded-[100px] border border-[#D0D5DD]">
       <div className="flex items-center gap-2">
         <span>
           <svg
@@ -118,6 +118,7 @@ const NavBar = () => {
         width="30"
         height="30"
         viewBox="0,0,256,256"
+        className="lg:hidden"
         onClick={handleToggleMenu}
       >
         <g
@@ -141,7 +142,7 @@ const NavBar = () => {
         </g>
       </svg>
       <div
-        className={`absolute top-16 right-0 lg:hidden flex flex-col gap-8 p-8 rounded-lg transform animate-fade-in ${
+        className={`absolute top-20 left-0 lg:hidden flex flex-col self-center gap-8 p-8 rounded-lg transform animate-fade-in ${
           showMenu ? "scale-y-100" : "scale-y-0"
         } origin-top transition-transform duration-300 ease-in-out bg-[#F9FAFB] w-full`}
       >
@@ -220,10 +221,10 @@ const NavBar = () => {
           </li>
         </ul>
         <div className="flex items-center gap-4 ">
-          <button className="px-[14px] py-3 text-gray text-base font-semibold border border-[#98A2B3] rounded-[100px] ">
+          <button className=" px-3 py-1 md:px-[14px] md:py-3 text-gray text-sm md:text-base font-semibold border border-[#98A2B3] rounded-[100px] ">
             Talk to sales
           </button>
-          <button className="px-[14px] py-3 text-white text-base font-semibold bg-pryColor rounded-[100px]">
+          <button className="px-3 py-1 md:px-[14px] md:py-3 text-white text-sm md:text-base font-semibold bg-pryColor rounded-[100px]">
             Signup for free
           </button>
         </div>

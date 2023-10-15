@@ -9,7 +9,7 @@ import SponsorsSection from "./components/SponsorsSection";
 
 function App() {
   return (
-    <div className="px-8 py-4 md:px-14 lg:px-[96px] lg:py-[24px] font-[inter]">
+    <div className="relative px-8 py-4 md:px-14 lg:px-[96px] lg:py-[24px] font-[inter]">
       <NavBar />
       <HeroSection />
       <SponsorsSection />

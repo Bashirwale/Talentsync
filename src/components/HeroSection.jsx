@@ -16,11 +16,11 @@ const HeroSection = () => {
   return (
     <div className="flex flex-col lg:flex-row items-center py-10 md:py-16 lg:py-24 lg:mt-24 gap-8 lg:gap-4">
       <div className="flex flex-col gap-12 lg:w-1/2">
-        <h1 className="text-gray text-2xl md:text-4xl lg:text-6xl font-semibold ">
+        <h1 className="text-gray text-4xl md:text-6xl font-semibold ">
           Uniting the world,
           <span className="block">one video call at a time</span>
         </h1>
-        <p className="text-2xl font-normal text-[#667085]">
+        <p className="md:text-2xl font-normal text-[#667085]">
           Experience the future of communication with ClearLink – where
           crystal-clear video conferencing meets unparalleled simplicity.
         </p>
@@ -96,7 +96,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-10 bg-[#EFF8FF] p-8 border border-[#B2DDFF] shadow-md rounded-2xl lg:w-1/2">
+      <div className="flex flex-col gap-10 bg-[#EFF8FF] p-6 md:p-8 border border-[#B2DDFF] shadow-md rounded-2xl lg:w-1/2">
         <div className="grid grid-cols-3 gap-5  ">
           <img
             src={whiteman}
@@ -129,8 +129,8 @@ const HeroSection = () => {
             className="bg-pink-300 rounded-2xl"
           />
         </div>
-        <ul className="flex items-center justify-center gap-4">
-          <li className="flex item-center justify-center bg-white shadow-md border border-[#D1E9FF] p-3 rounded-full">
+        <ul className="flex items-center justify-center gap-2 md:gap-4">
+          <li className="flex item-center justify-center bg-white shadow-md border border-[#D1E9FF] p-2 rounded-full">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"
@@ -147,7 +147,7 @@ const HeroSection = () => {
               />
             </svg>
           </li>
-          <li className="flex item-center justify-center bg-white shadow-md border border-[#D1E9FF] p-3 rounded-full">
+          <li className="flex item-center justify-center bg-white shadow-md border border-[#D1E9FF] p-2 rounded-full">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"
@@ -171,7 +171,7 @@ const HeroSection = () => {
               />
             </svg>
           </li>
-          <li className="flex item-center justify-center bg-white shadow-md border border-[#D1E9FF] p-3 rounded-full">
+          <li className="flex item-center justify-center bg-white shadow-md border border-[#D1E9FF] p-2 rounded-full">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"
@@ -188,7 +188,7 @@ const HeroSection = () => {
               />
             </svg>
           </li>
-          <li className="flex item-center justify-center bg-white shadow-md border border-[#D1E9FF] p-3 rounded-full">
+          <li className="flex item-center justify-center bg-white shadow-md border border-[#D1E9FF] p-2 rounded-full">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"
@@ -212,7 +212,7 @@ const HeroSection = () => {
               </defs>
             </svg>
           </li>
-          <li className="flex item-center justify-center bg-white shadow-md border border-[#D1E9FF] p-3 rounded-full">
+          <li className="flex item-center justify-center bg-white shadow-md border border-[#D1E9FF] p-2 rounded-full">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"
@@ -229,7 +229,7 @@ const HeroSection = () => {
               />
             </svg>
           </li>
-          <li className="flex item-center justify-center bg-white shadow-md border border-[#D1E9FF] p-3 rounded-full">
+          <li className="flex item-center justify-center bg-white shadow-md border border-[#D1E9FF] p-2 rounded-full">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"

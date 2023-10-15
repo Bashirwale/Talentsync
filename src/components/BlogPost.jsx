@@ -78,7 +78,7 @@ const BlogPost = () => {
           <img src={star} alt="star" />
           <img src={star} alt="star" />
         </div>
-        <p className="text-gray text-3xl md:text-4xl text-[44px] font-medium">
+        <p className="text-gray text-2xl md:text-4xl text-[44px] font-medium">
           ClearLink has upgraded our remote meetings. High-quality video, screen
           sharing, and top-notch security make it essential for our team.
         </p>
@@ -86,8 +86,10 @@ const BlogPost = () => {
           <div className="flex items-center gap-3">
             <img src={sara} alt="Sarah Thompson" />
             <div>
-              <p className="text-gray text-xl font-semibold">Sarah Thompson</p>
-              <p className="text-[#475467] text-[18px] font-normal">
+              <p className="text-gray text-base md:text-xl font-semibold">
+                Sarah Thompson
+              </p>
+              <p className="text-[#475467] text-sm md:text-lg font-normal">
                 Project Manager, Shopify
               </p>
             </div>

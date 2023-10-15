@@ -30,10 +30,10 @@ const FeaturesSection = () => {
                 stroke-linejoin="round"
               />
             </svg>
-            <h3 className="text-2xl text-gray font-semibold mt-3 md:mt-5">
+            <h3 className="text-lg md:text-2xl text-gray font-semibold mt-3 md:mt-5">
               Crystal-clear HD video
             </h3>
-            <p className="text-2xl text-[#475467] font-normal mt-1 md:mt-3">
+            <p className="text-lg md:text-2xl text-[#475467] font-normal mt-1 md:mt-3">
               No more pixelation or blurriness – just stunning, lifelike clarity
               that brings your team closer in meetings.
             </p>
@@ -54,10 +54,10 @@ const FeaturesSection = () => {
                 stroke-linejoin="round"
               />
             </svg>
-            <h3 className="text-2xl text-gray font-semibold mt-3 md:mt-5">
+            <h3 className="text-lg md:text-2xl text-gray font-semibold mt-3 md:mt-5">
               Noise-canceling audio
             </h3>
-            <p className="text-2xl text-[#475467] font-normal mt-1 md:mt-3">
+            <p className="text-lg md:text-2xl text-[#475467] font-normal mt-1 md:mt-3">
               Say goodbye to distractions with our advanced audio tech for
               crisp, interruption-free conversations.
             </p>
@@ -85,10 +85,10 @@ const FeaturesSection = () => {
                 stroke-linejoin="round"
               />
             </svg>
-            <h3 className="text-2xl text-gray font-semibold mt-3 md:mt-5">
+            <h3 className="text-lg md:text-2xl text-gray font-semibold mt-3 md:mt-5">
               Scheduling made easy
             </h3>
-            <p className="text-2xl text-[#475467] font-normal mt-1 md:mt-3">
+            <p className="text-lg md:text-2xl text-[#475467] font-normal mt-1 md:mt-3">
               Streamline your agenda with ClearLink's intuitive scheduling. Set
               up meetings, send invitations, and receive reminders in one place.
             </p>
@@ -110,10 +110,10 @@ const FeaturesSection = () => {
               />
             </svg>
 
-            <h3 className="text-2xl text-gray font-semibold mt-3 md:mt-5">
+            <h3 className="text-lg md:text-2xl text-gray font-semibold mt-3 md:mt-5">
               Bank-grade security
             </h3>
-            <p className="text-2xl text-[#475467] font-normal mt-1 md:mt-3">
+            <p className="text-lg md:text-2xl text-[#475467] font-normal mt-1 md:mt-3">
               Your privacy is our priority with bank-grade security protocols
               safeguarding your meetings and data from unwanted intruders.
             </p>
@@ -126,7 +126,7 @@ const FeaturesSection = () => {
       <svg
         width="283"
         height="244"
-        className="absolute top-[1160px] right-32 md:top-0 md:right-0 lg:top-[152px] w-[126px] md:w-[220px] lg:w-[283px] lg:right-[220px]"
+        className="absolute top-[964px] right-32 md:top-0 md:right-0 lg:top-[152px] w-[126px] md:w-[220px] lg:w-[283px] lg:right-[220px]"
         viewBox="0 0 283 244"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
